@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Usuários</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <meta charset="utf-8" />
+</head>
+<body>
+    <header>
+        <img src= "../favicon.ico"" alt="logo">
+        <h1>Cadastramento de Usuários</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html">Página Inicial</a>
+                <ul>
+                    <li>
+                        <a href="../index.html#extintos">Animais Extintos</a>
+                    </li>
+                    <li>
+                        <a href="../index.html#risco">Animais com risco de extinção</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="administracao.html">Login de Adminstração</a>
+                <ul>
+                    <li>
+                        <a href="usuarioscadastro.html">Cadastramento de Usuários</a>
+                    </li>
+                    <li>
+                        <a href="animaiscadastro.html">Cadastramento de Animais</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="../autor.html">Autor</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <form action=" " method="post">
+            <h1>Formulário de cadastramento</h1>
+            <div>
+                <label for="nomeusuario">Nome:</label>
+                <input type="text" name="nomeusuario" id="nomeusuario"/>
+            </div>
+            <div>
+                <label for="emailusuario">E-mail:</label>
+                <input type="text" name="emailusuario" id="emailusuario"/>
+            </div>
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha"/> 
+            </div>
+            <div>
+                <input type="submit" value="Cadastrar">
+            </div>
+            <div>
+                <input type="reset" value="Resetar cadastro">
+            </div>
+        </form>
+        <section>
+            <h1>Tabela de usuários cadastrados</h1>
+            <table>
+                <tr>
+                    <th>Nome do usuário</th>                    
+                    <th>E-mail do usuário</th>
+                </tr>
+                <tr>
+                    <td>Carlos</td>
+                    <td>carlos@gmail.com</td>
+                    <td>
+                        <a href="#">Editar</a>
+                        <a href="#">Apagar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Laura</td>
+                    <td>laura@gmail.com</td>
+                    <td>
+                        <a href="#">Editar</a>
+                        <a href="#">Apagar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>maria@gmail.com</td>
+                    <td>
+                        <a href="#">Editar</a>
+                        <a href="#">Apagar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>José</td>
+                    <td>jose@gmail.com</td>
+                    <td>
+                        <a href="#">Editar</a>
+                        <a href="#">Apagar</a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <p>
+        <a href="../index.html">Página Inicial</a>
+    </p>
+    <footer>
+        Desenvolvido por <a href="../autor.html">Charles Henrique</a>
+    </footer>
+</body>
+</html>
